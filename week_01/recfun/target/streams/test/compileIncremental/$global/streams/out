@@ -1,0 +1,60 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/PascalSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/PascalSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/PascalSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/PascalSuite.scala, /Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/01379863/Desktop/Project/Scala/week_01/recfun/target/scala-2.11/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.11.12[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 7b7a2a7d, interfacing (CompilerInterface) with Scala compiler version 2.11.12[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/01379863/Desktop/Project/Scala/week_01/recfun/target/scala-2.11/test-classes:/Users/01379863/Desktop/Project/Scala/week_01/recfun/target/scala-2.11/classes:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar:/Users/01379863/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala:11: value balance is not a member of object recfun.Main[0m
+[0m[[31merror[0m] [0m  import Main.balance[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala:14: not found: value balance[0m
+[0m[[31merror[0m] [0m    assert(balance("(if (zero? x) max (/ 1 x))".toList))[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala:18: not found: value balance[0m
+[0m[[31merror[0m] [0m    assert(balance("I told him (that it's not (yet) done).\n(But he wasn't listening)".toList))[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala:22: not found: value balance[0m
+[0m[[31merror[0m] [0m    assert(!balance(":-)".toList))[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/BalanceSuite.scala:26: not found: value balance[0m
+[0m[[31merror[0m] [0m    assert(!balance("())(".toList))[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala:11: value countChange is not a member of object recfun.Main[0m
+[0m[[31merror[0m] [0m  import Main.countChange[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala:13: not found: value countChange[0m
+[0m[[31merror[0m] [0m    assert(countChange(4,List(1,2)) === 3)[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala:17: not found: value countChange[0m
+[0m[[31merror[0m] [0m    assert(countChange(300,List(5,10,20,50,100,200,500)) === 1022)[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala:21: not found: value countChange[0m
+[0m[[31merror[0m] [0m    assert(countChange(301,List(5,10,20,50,100,200,500)) === 0)[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/01379863/Desktop/Project/Scala/week_01/recfun/src/test/scala/recfun/CountChangeSuite.scala:25: not found: value countChange[0m
+[0m[[31merror[0m] [0m    assert(countChange(300,List(500,5,50,100,20,200,10)) === 1022)[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m10 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(test:[31mcompileIncremental[0m) Compilation failed[0m
